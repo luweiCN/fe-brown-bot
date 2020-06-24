@@ -1,0 +1,12 @@
+{
+    "verbose": false,
+    "debug": false,
+    "exec": "ts-node  ./src/app.ts",
+    "ignore": ["node_modules", "**/*.d.ts"],
+    "events": {
+        "restart": ""
+    },
+    "watch": ["./src"],
+    "ext": "js json ts tsx",
+    "inspect": true
+}

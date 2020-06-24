@@ -1,0 +1,19 @@
+{
+    "name": "my-padplus-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --watch 'src/**/*' -e ts --exec 'ts-node' ./src/app.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.4",
+        "qrcode-terminal": "^0.12.0",
+        "wechaty": "^0.40.10",
+        "wechaty-puppet-padplus": "^0.6.3"
+    }
+}
