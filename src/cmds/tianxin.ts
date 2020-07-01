@@ -1,4 +1,4 @@
-import { tianxinApiKey } from "../../constant";
+import { tianxinApiKey } from "../config";
 import axios from "axios";
 import { error_text } from "../common/constant";
 import querystring from "querystring";
